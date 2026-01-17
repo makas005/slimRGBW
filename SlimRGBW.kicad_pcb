@@ -712,7 +712,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "b1b2c8fd-5bae-4888-b4d9-3438a811cdb3")
-		(at 156.62 76.04)
+		(at 157 85 180)
 		(descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x05 2.54mm single row")
 		(property "Reference" "J1"
@@ -767,44 +767,14 @@
 		(sheetfile "SlimRGBW.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -1.38 -1.38)
-			(end 0 -1.38)
+			(start 1.38 1.27)
+			(end 1.38 11.54)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "169d94f7-6509-4ebc-b819-f366211cc591")
-		)
-		(fp_line
-			(start -1.38 0)
-			(end -1.38 -1.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "badf1589-0641-488d-8bba-b857c2b5d694")
-		)
-		(fp_line
-			(start -1.38 1.27)
-			(end -1.38 11.54)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c5fd0da8-64ed-4b02-8d4e-5ed8690e548c")
-		)
-		(fp_line
-			(start -1.38 1.27)
-			(end 1.38 1.27)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a88d3d3f-1918-4db9-8f31-020840a6a241")
+			(uuid "ff2519df-f0d9-418c-b282-d4f9c41a1f59")
 		)
 		(fp_line
 			(start -1.38 11.54)
@@ -817,44 +787,44 @@
 			(uuid "95e35048-5af1-493f-add2-0c5d40d6e4ec")
 		)
 		(fp_line
-			(start 1.38 1.27)
-			(end 1.38 11.54)
+			(start -1.38 1.27)
+			(end 1.38 1.27)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ff2519df-f0d9-418c-b282-d4f9c41a1f59")
+			(uuid "a88d3d3f-1918-4db9-8f31-020840a6a241")
 		)
 		(fp_line
-			(start -1.77 -1.77)
-			(end -1.77 11.93)
+			(start -1.38 1.27)
+			(end -1.38 11.54)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "2803ae08-f6a7-4489-b027-df2c729012d1")
+			(layer "F.SilkS")
+			(uuid "c5fd0da8-64ed-4b02-8d4e-5ed8690e548c")
 		)
 		(fp_line
-			(start -1.77 11.93)
-			(end 1.77 11.93)
+			(start -1.38 0)
+			(end -1.38 -1.38)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "df52d6e8-ad08-4171-a8c6-9877a1ca65a5")
+			(layer "F.SilkS")
+			(uuid "badf1589-0641-488d-8bba-b857c2b5d694")
 		)
 		(fp_line
-			(start 1.77 -1.77)
-			(end -1.77 -1.77)
+			(start -1.38 -1.38)
+			(end 0 -1.38)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "d41f7e02-f3a2-475c-b5d2-54c01fdd5564")
+			(layer "F.SilkS")
+			(uuid "169d94f7-6509-4ebc-b819-f366211cc591")
 		)
 		(fp_line
 			(start 1.77 11.93)
@@ -867,34 +837,44 @@
 			(uuid "8fecf996-8e30-409f-b9d4-409b8906c4b8")
 		)
 		(fp_line
-			(start -1.27 -0.635)
-			(end -0.635 -1.27)
+			(start 1.77 -1.77)
+			(end -1.77 -1.77)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "6218d0b9-abd3-4c49-83ac-e22e79345af7")
+			(layer "F.CrtYd")
+			(uuid "d41f7e02-f3a2-475c-b5d2-54c01fdd5564")
 		)
 		(fp_line
-			(start -1.27 11.43)
-			(end -1.27 -0.635)
+			(start -1.77 11.93)
+			(end 1.77 11.93)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "b0c305a4-56e6-4ddd-99cb-c871652b278d")
+			(layer "F.CrtYd")
+			(uuid "df52d6e8-ad08-4171-a8c6-9877a1ca65a5")
 		)
 		(fp_line
-			(start -0.635 -1.27)
-			(end 1.27 -1.27)
+			(start -1.77 -1.77)
+			(end -1.77 11.93)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2803ae08-f6a7-4489-b027-df2c729012d1")
+		)
+		(fp_line
+			(start 1.27 11.43)
+			(end -1.27 11.43)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2e961354-d6b1-4823-858b-cea6c1662442")
+			(uuid "00db05bc-700a-49cc-a151-f0c21e1aa26c")
 		)
 		(fp_line
 			(start 1.27 -1.27)
@@ -907,14 +887,34 @@
 			(uuid "aefc7010-8dc7-42c3-85d0-b48508627d84")
 		)
 		(fp_line
-			(start 1.27 11.43)
-			(end -1.27 11.43)
+			(start -0.635 -1.27)
+			(end 1.27 -1.27)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "00db05bc-700a-49cc-a151-f0c21e1aa26c")
+			(uuid "2e961354-d6b1-4823-858b-cea6c1662442")
+		)
+		(fp_line
+			(start -1.27 11.43)
+			(end -1.27 -0.635)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b0c305a4-56e6-4ddd-99cb-c871652b278d")
+		)
+		(fp_line
+			(start -1.27 -0.635)
+			(end -0.635 -1.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6218d0b9-abd3-4c49-83ac-e22e79345af7")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 5.08 90)
@@ -928,7 +928,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0)
+			(at 0 0 180)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -939,7 +939,7 @@
 			(uuid "4c9aad1e-290d-4522-97ea-63c22c645cce")
 		)
 		(pad "2" thru_hole circle
-			(at 0 2.54)
+			(at 0 2.54 180)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -950,7 +950,7 @@
 			(uuid "00c4ee31-7dc9-4d45-b799-cd7f591a2e82")
 		)
 		(pad "3" thru_hole circle
-			(at 0 5.08)
+			(at 0 5.08 180)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -961,7 +961,7 @@
 			(uuid "faa63f2b-ecdf-4b77-b92f-2654acd60602")
 		)
 		(pad "4" thru_hole circle
-			(at 0 7.62)
+			(at 0 7.62 180)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -972,7 +972,7 @@
 			(uuid "e1d63b2e-ffc7-47b9-ac6c-50567ec89f5e")
 		)
 		(pad "5" thru_hole circle
-			(at 0 10.16)
+			(at 0 10.16 180)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -1595,7 +1595,7 @@
 	(footprint "PCM_Espressif:ESP32-C3-MINI-1"
 		(layer "F.Cu")
 		(uuid "fe366886-62a1-4dad-8cff-91f984c957eb")
-		(at 146.965 82.805)
+		(at 145.975 80.825)
 		(descr "ESP32-C3-MINI-1: https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf")
 		(tags "ESP32-C3")
 		(property "Reference" "U1"
@@ -2491,7 +2491,7 @@
 			)
 			(polygon
 				(pts
-					(xy 153.565 79.905) (xy 140.365 79.905) (xy 140.365 74.505) (xy 153.565 74.505)
+					(xy 152.575 77.925) (xy 139.375 77.925) (xy 139.375 72.525) (xy 152.575 72.525)
 				)
 			)
 		)
